@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	background-image: url(../img/blue_light_line_65813_1920x1080.jpg);
+	background-size: cover;
+}
+
+.header{
+    width: 60%;
+    height: 500px;
+    margin-left: 365px;
+
+}
+.search-field{
+	width: 59%;
+    height: 50px;
+    border: 2px solid white;
+    margin-left: 300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.button-search{
+	width: 200px;
+    height: 56px;
+    vertical-align: top;
+    font-size: 30px;
+    background: #9e9e9e57;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.container-found-books{
+	width: 72%;
+	margin: auto;
+}
+.books{
+	width: 37%;
+    height: 400px;
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.book-image{
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+}
+.book-info{
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.name-book{
+    width: 240px;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.link-book-score{
+    width: 160px;
+    height: 55px;
+    font-size: 29px;
+    background: #f9f9f900;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid white
+
+}
+
+.link-book{
+    color: white;
+}
+
+.autor-book, .book-publishing, .book-categories, .published-date{
+    width: 240px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.autor-book{
+     margin-top: 60px
+}
+
+.book-publishing{
+   margin-top: 0px;
+}
+
+.book-categories{
+   margin-top: 0px;
+}
+
+.published-date{
+   margin-top: 0px;
+}
